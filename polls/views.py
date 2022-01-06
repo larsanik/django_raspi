@@ -7,4 +7,4 @@ from polls.ant10 import AHT10
 def index(request):
     m = AHT10(1)
     data = m.getData()
-    return HttpResponse("Hello, world. You're at the polls index." + "Temperature: %.2f C" % data[0] + "Humidity: %.2f " % data[1] + "%")
+    return HttpResponse("Temperature: %.2f C" % data[0] + "\n" "Humidity: %.2f " % data[1] + "%")
