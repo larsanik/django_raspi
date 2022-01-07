@@ -16,6 +16,6 @@ def index(request):
     # return HttpResponse("Temperature: %.2f C " % temperature + "Humidity: %.2f " % humidity + "% " + "Pressure:    %.2f mmHg" % press)
     return render(
         request,
-        'index.html',
+        'templates/index.html',
         context={'temperature': temperature, 'humidity': humidity, 'press': press},
     )
