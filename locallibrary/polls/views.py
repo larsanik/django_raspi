@@ -3,8 +3,8 @@ from django.shortcuts import render
 # Create your views here.
 # from django.http import HttpResponse
 from django.shortcuts import render
-from polls.ant10 import AHT10
-from polls.bmp180_a import readBmp180
+from ant10 import AHT10
+from bmp180_a import readBmp180
 
 def index(request):
     m = AHT10(1)
