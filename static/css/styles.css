@@ -1,7 +1,4 @@
 body {
-	color: #0000ff;
-	font: 14px Tahoma, sans-serif;
-	text-align: center;
   /* Путь до изображения */
   background-image: url(../img/bg.png);
 
@@ -20,10 +17,13 @@ body {
   /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
   background-color: #464646;
 }
-/*body {
-	color: #8f8f8f;
-	font: 14px Tahoma, sans-serif;
-	background-color: green;
-	border-top: 5px solid #7e7e7e;
-	margin: 0;
-}*/
+.testimonialText {
+    color: #0000ff;
+	font: 16px Tahoma, sans-serif;
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
