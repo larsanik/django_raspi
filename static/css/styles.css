@@ -1,7 +1,8 @@
 body {
+	color: #ffffff;
 	font: 14px Tahoma, sans-serif;
   /* Путь до изображения */
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/bg.png);
 
   /* Фоновое изображение всегда отцентрировано по вертикали и горизонтали */
   background-position: center center;
