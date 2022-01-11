@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'raspi.meteo.apps.MeteoConfig'
+    'raspi.meteo.apps.MeteoConfig',
+
 ]
 
 MIDDLEWARE = [
