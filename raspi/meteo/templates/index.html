@@ -8,9 +8,9 @@
 </head>
 <body>
 	<div class="testimonialText">
-		<h1>Температура: {{ temperature|floatformat:2 }} °С</h1>
-		<h1>Давление: {{ press|floatformat:2 }} мм рт.ст.</h1>
-		<h1>Влажность: {{ humidity|floatformat:2 }} %</h1>
+		<h1>Температура {{ temperature|floatformat:2 }} °С</h1>
+		<h1>Давление {{ press|floatformat:2 }} mmHg</h1>
+		<h1>Влажность {{ humidity|floatformat:2 }} %</h1>
 	</div>
 </body>
 </html>
