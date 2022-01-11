@@ -1,6 +1,7 @@
 body {
-	color: #ffffff;
+	color: #0000ff;
 	font: 14px Tahoma, sans-serif;
+	text-align: center;
   /* Путь до изображения */
   background-image: url(../img/bg.png);
 
