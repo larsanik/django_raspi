@@ -1,7 +1,27 @@
 body {
+	font: 14px Tahoma, sans-serif;
+  /* Путь до изображения */
+  background-image: url(../img/bg.jpg);
+
+  /* Фоновое изображение всегда отцентрировано по вертикали и горизонтали */
+  background-position: center center;
+
+  /* Фоновое изображение не повторяется */
+  background-repeat: no-repeat;
+
+  /* Фоновое изображение зафиксировано в окне просмотра, поэтому оно не смещается, когда высота контента больше высоты изображения */
+  background-attachment: fixed;
+
+  /* Вот что позволяет фоновому изображению подстраиваться под размер контейнера */
+  background-size: cover;
+
+  /* Устанавливает фоновый цвет, который будет отображаться, пока загружается фоновое изображение */
+  background-color: #464646;
+}
+/*body {
 	color: #8f8f8f;
 	font: 14px Tahoma, sans-serif;
 	background-color: green;
 	border-top: 5px solid #7e7e7e;
 	margin: 0;
-}
+}*/
