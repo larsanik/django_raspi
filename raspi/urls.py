@@ -20,5 +20,6 @@ from raspi.meteo import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('meteo/', include('raspi.meteo.urls')),
+    path('json_ansv/', include('raspi.meteo.urls')),
     path('', views.index, name='index'),
 ]
