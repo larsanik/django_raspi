@@ -9,6 +9,6 @@ def profile(request):
     data = {
         'temperature': temperature,
         'humidity': humidity,
-        'press': press
+        'pressure': press
     }
     return JsonResponse(data)
