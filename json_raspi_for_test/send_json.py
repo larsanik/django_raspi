@@ -2,7 +2,7 @@
 import requests
 import json
 from datetime import datetime
-from raspi.input.input import sensorPolling
+from input import sensorPolling
 
 # целевой URL-адрес
 url = 'http://larsanik.sknt.ru/meteodata/post_q/'
