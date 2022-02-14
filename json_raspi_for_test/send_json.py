@@ -23,11 +23,11 @@ param = {
     'Pressure': press,
     'Geocoord': geocoord
 }
-print(f'Словарь = {param}')
+# print(f'Словарь = {param}')
 
 # кодируем словарь в формат JSON
 json_param = json.dumps(param)
 
 # отправка POST-запроса с данными в формате JSON
 resp = requests.post(url, data=json_param)
-print(f'Результат = {resp}')
+# print(f'Результат = {resp}')
