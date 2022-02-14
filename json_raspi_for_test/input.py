@@ -1,5 +1,5 @@
-from raspi.input.ant10 import AHT10
-from raspi.input.bmp180_a import readBmp180
+from ant10 import AHT10
+from bmp180_a import readBmp180
 # import time
 # import random # only for testing
 
