@@ -1,17 +1,18 @@
 import requests
 import json
 from datetime import datetime
+from raspi.input.input import sensorPolling
 
 # целевой URL-адрес
-url = 'http://127.0.0.1:8000/meteodata/post_q/'
+url = 'http://http://larsanik.sknt.ru/meteodata/post_q/'
 # данные в виде словаря
-
+temperature_in, humidity_in, press_in = sensorPolling()
 idstation=1
-timemes=str(datetime.today())
-temperature=-3.35
-humidity=87.65
-press=760.34
-geocoord='38.161594892513094, 20.43207143133511'
+timemes = str(datetime.today())
+temperature = temperature_in
+humidity = humidity_in
+press = press_in
+geocoord='60.0277651653459, 30.213837357491467'
 
 param = {
     'ID station': idstation,
