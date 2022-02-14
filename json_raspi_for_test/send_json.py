@@ -4,7 +4,7 @@ from datetime import datetime
 from raspi.input.input import sensorPolling
 
 # целевой URL-адрес
-url = 'http://http://larsanik.sknt.ru/meteodata/post_q/'
+url = 'http://larsanik.sknt.ru/meteodata/post_q/'
 # данные в виде словаря
 temperature_in, humidity_in, press_in = sensorPolling()
 idstation=1
